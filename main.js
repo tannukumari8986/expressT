@@ -6,7 +6,7 @@ const path = require('path');
 
 app.get('/', (req, res) => {
 //   res.send('Hello World!')
- res.sendFile(path.join(__dirname,'a.html'
+ res.sendFile(path.join(__dirname,'index.html'
 ));
 })
 
